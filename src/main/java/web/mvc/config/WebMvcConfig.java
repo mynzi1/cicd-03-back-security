@@ -19,8 +19,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
      registry.addMapping("/**")
       //.allowedOrigins("http://localhost:5173","http://localhost:4173")
       //.allowedOrigins("http://43.200.184.113:5173", "http://43.200.184.113:4173")
-      .allowedOrigins("http://54.180.240.89/", "http://54.180.240.89:80")
-      //.allowedOrigins("http://my-kosta-test.kro.kr", "https://my-kosta-test.kro.kr")
+      //.allowedOrigins("http://54.180.240.89/", "http://54.180.240.89:80")
+      .allowedOrigins("http://my-kosta-test.kro.kr", "https://my-kosta-test.kro.kr")
      .allowedMethods("OPTIONS","GET","POST","PUT","DELETE");
   }
 }
